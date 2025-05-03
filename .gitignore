@@ -1,0 +1,14 @@
+dataset/
+
+**/*.Identifier
+
+processed_data/expanded_spectrograms.h5
+
+**/spectrograms.h5
+# **/**/*.h5
+
+**/spectrograms.npy
+# **/**/spectrograms.npy
+
+# Ignore models for now as there's a lot of files
+models/
